@@ -1,0 +1,14 @@
+POST http://localhost:3000/user/auth
+Content-Type: application/json
+
+# {
+#     "email":"admin@email.com", 
+#     "password":"123"
+# }
+{
+    "email":"tiago@email.com", 
+    "password":"abc"
+}
+
+###
+

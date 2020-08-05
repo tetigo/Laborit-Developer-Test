@@ -1,0 +1,42 @@
+
+### 
+GET http://localhost:3000/api/vehicles/1
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+### 
+POST http://localhost:3000/api/vehicles
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+{
+    "fuel":"gasolina",
+    "yearModel": 2010,
+    "value": "R$ 45.500,00",
+    "model_id": 4,
+    "brand_id": 2
+}
+
+### 
+PUT http://localhost:3000/api/vehicles/1
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+{
+    "fuel":"gasolina",
+    "yearModel": 2027,
+    "value": "R$ 65.500,00",
+    "model_id": 5,
+    "brand_id": 1
+}
+
+### 
+DELETE http://localhost:3000/api/models/1
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+### 

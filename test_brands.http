@@ -1,0 +1,40 @@
+
+### 
+GET http://localhost:3000/api/brands
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+### 
+GET http://localhost:3000/api/brands/1
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+### 
+POST http://localhost:3000/api/brands
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+{
+    "brand": "BMW"
+}
+
+### 
+PUT http://localhost:3000/api/brands/6
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+{
+    "brand": "Ferrari"
+}
+
+### 
+DELETE http://localhost:3000/api/brands/6
+Content-Type: application/json
+auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjksInVzZXJUeXBlIjoiYWRtaW4iLCJpYXQiOjE1OTY1NTcwNDQsImV4cCI6MTU5NzE2MTg0NH0.ypDkHRzjlmUJatRmjrTtppzTLGs-4LJM5M-_cMsq1-0
+# auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwLCJ1c2VyVHlwZSI6InVzZXIiLCJpYXQiOjE1OTY1NjE1MDksImV4cCI6MTU5NzE2NjMwOX0.ZaxtMwVUAkRtiXiP9TlF4Oaq1KlXAMbSLhneYceyNIk
+
+### 
