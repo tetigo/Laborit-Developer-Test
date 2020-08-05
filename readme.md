@@ -1,7 +1,7 @@
 Banco usado: MySql
 
 Não instalei o servidor do banco, utilizei UniServer Zero XIV para rodar versão portable do server mysql.
-O mesmo pode ser encontrado em : [https://www.uniformserver.com/](Universer Zero XIV)
+O mesmo pode ser encontrado em : [Universer Zero XIV](https://www.uniformserver.com/)
 
 Banco criado usando MySQL Workbench.
 Também não instalei o mesmo. Utilizei versão portable.
