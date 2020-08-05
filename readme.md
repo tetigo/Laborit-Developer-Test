@@ -1,4 +1,5 @@
-Banco usado: MySql
+Banco utilizado: MySql
+O mesmo pode ser trocado facilmente em virtude de ter sido utilizado KnexJS para tratar banco.
 
 Não instalei o servidor do banco, utilizei UniServer Zero XIV para rodar versão portable do server mysql.
 O mesmo pode ser encontrado em : [Universer Zero XIV](https://www.uniformserver.com/)
@@ -8,6 +9,8 @@ Também não instalei o mesmo. Utilizei versão portable.
 Pode ser encontrado em: [MySQL Workbench Portable](http://www.winpenpack.com/en/download.php?view.1229)
 
 Criei o modelo. Salvei como modelo.mdb
+![modelo](modelo.png)
+
 
 Exportei o script gerador do banco para MySql.
 
