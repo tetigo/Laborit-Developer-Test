@@ -31,7 +31,7 @@ password: 123
 tiago@email.com
 password: abc
 ```
-Para brincar, seguir os passos.
+Para testar, seguir os passos abaixo:
 
 Clone o repositório do git para seu computador.
 
