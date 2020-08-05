@@ -5,7 +5,7 @@ O mesmo pode ser encontrado em : [Universer Zero XIV](https://www.uniformserver.
 
 Banco criado usando MySQL Workbench.
 Também não instalei o mesmo. Utilizei versão portable.
-Pode ser encontrado em: [http://www.winpenpack.com/en/download.php?view.1229](MySQL Workbench Portable)
+Pode ser encontrado em: [MySQL Workbench Portable](http://www.winpenpack.com/en/download.php?view.1229)
 
 Criei o modelo. Salvei como modelo.mdb
 
@@ -19,7 +19,7 @@ No banco já vai ter 2 usuario criados com respectivos tipos: admin e user
 as senhas foram salvas no banco usando bcrypt 10 passos
 
 Rotina de criação de usuários ainda não foi desenvolvida. Usuários foram criados no banco na mão.
-Senhas foram criptografadas online usando o site: [https://www.browserling.com/tools/bcrypt](Bcrypt Online)
+Senhas foram criptografadas online usando o site: [Bcrypt Online](https://www.browserling.com/tools/bcrypt)
 os usuários existentes são:
 ```
 admin@email.com
@@ -45,9 +45,9 @@ rodar script populate_script.sql para inserir tuplas nas tabelas.
 
 estou utilizando vscode como editor para o código.
 
-o mesmo pode ser instalado a partir de : [https://code.visualstudio.com/](VSCode)
+o mesmo pode ser instalado a partir de : [VSCode](https://code.visualstudio.com/)
 
-instalar NodeJS. [https://nodejs.org/en/](NodeJS)
+instalar NodeJS. [NodeJS](https://nodejs.org/en/)
 
 Plugins do vscode: REST Client. Desenvolvedor: Huachao Mao
 Instalar esse plugin no vscode para poder testar a API de dentro do vscode super simples sem precisar de CURL ou POSTMAN, etc.
